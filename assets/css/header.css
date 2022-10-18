@@ -1,0 +1,50 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;*/
+
+/*https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd*/
+
+.header {
+    background: #E0E1DD;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.header__item {
+    margin-right: 1.2rem;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.header__link {
+    font-family: 'Merriweather', serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(11, 55, 158);
+}
+
+.header__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.6rem;
+}
+
+.header__logo {
+    background: url(../img/logo_pro.png);
+    background-size:cover;
+    background-position: center;
+    padding:4rem;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-between;
+    margin: 0 2rem 0 2rem;
+}
