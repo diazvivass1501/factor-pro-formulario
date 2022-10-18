@@ -5,8 +5,30 @@
 }
 
 .formulario__alerta___Error {
-    display: none;
+    display: flex;
+    align-self:flex-start;
     font-size: 1.1rem;
+    margin-bottom: 1rem;
+    visibility:hidden;
+}
+
+.formulario__boton {
+    border: 1px solid #415A77;
+    border-radius: 2rem;
+    background: #E0E1DD;
+    padding: 0.9rem 4rem;
+    transition:0.3s;
+}
+
+.formulario__boton:hover {
+    padding: 1.2rem 4.3rem;
+    transition:0.3s;
+}
+
+.formulario__boton:active {
+    padding: 1.2rem 4.3rem;
+    background: darkgray;/*rgb(224,255,221) rbg(213,243,210)*/
+    transition:0.3s;
 }
 
 .formulario__container___div {
@@ -30,12 +52,17 @@
 }
 
 .formulario__input {
+    border-radius: 2rem;
+    border: 1px solid #415A77;
+    font-size: 1rem;
+    padding: 0.5rem;
     width: 80%;
 }
 
 .formulario__label {
     align-self: flex-start;
     margin-left: 2.6rem;
+    border-radius: 3rem;
     text-align: justify;
     width: 80%;
 }
@@ -44,4 +71,12 @@
     border-bottom: 1px solid;
     margin-bottom: 1rem;
     padding-bottom: 1.5rem;
+}
+
+.formulario__select {
+    width: 82%;
+}
+
+.formulario__select___sexo {
+    width: 82%;
 }
