@@ -19,32 +19,32 @@ font-family: 'Oswald', sans-serif;*/
 }
 
 .header__link {
+    color: rgb(11, 55, 158);
     font-family: 'Merriweather', serif;
     font-size: 1.3rem;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(11, 55, 158);
 }
 
 .header__list {
-    display: flex;
-    justify-content: flex-end;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     padding: 1.6rem;
 }
 
 .header__logo {
     background: url(../img/logo_pro.png);
-    background-size:cover;
     background-position: center;
+    background-size:cover;
     padding:4rem;
 }
 
 .header__nav {
-    display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
+    display: flex;
     justify-content:space-between;
     margin: 0 2rem 0 2rem;
+    width: 100%;
 }
