@@ -1,83 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario | Factor Pro</title>
-    <link rel="stylesheet" href=".//assets/css/reset.css">
-    <link rel="stylesheet" href=".//assets/css/header.css">
-    <link rel="stylesheet" href=".//assets/css/formulario.css">
-    <link rel="stylesheet" href=".//assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Oswald:wght@300;400;600&display=swap"
-        rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario | Factor Pro</title>
+        <link rel="stylesheet" href=".//assets/css/reset.css">
+        <link rel="stylesheet" href=".//assets/css/header.css">
+        <link rel="stylesheet" href=".//assets/css/formulario.css">
+        <link rel="stylesheet" href=".//assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Oswald:wght@300;400;600&display=swap"
+            rel="stylesheet">
+    </head>
 
-<body>
-    <header class="header">
-        <nav class="header__nav">
-            <div class="header__logo"></div>
-            <ul class="header__list">
-                <li class="header__item"><a href="#" class="header__link">Inicio</a></li>
-                <li class="header__item"><a href="#" class="header__link">Sobre</a></li>
-                <li class="header__item"><a href="#" class="header__link">Formulario</a></li>
-                <li class="header__item"><a href="#" class="header__link">Contáctanos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main">
-        <section class="formulario">
-            <form action="#" class="formulario__contenido">
-                <legend class="formulario__leyenda">Datos personales</legend>
-                <div class="formulario__container___div">
-                    <label for="nombre1" class="formulario__label">Nombres:</label>
-                    <input type="text" id="nombre1" placeholder="Nombre" name="nombre" required
-                        class="formulario__input">
-                    <span class="formulario__alerta___Error">Campo no válido</span>
-                </div>
+    <body>
+        <header class="header">
+            <nav class="header__nav">
+                <div class="header__logo"></div>
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="header__link">Inicio</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Sobre</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Formulario</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="formulario">
+                <form action="#" class="formulario__contenido">
+                    <legend class="formulario__leyenda">Datos personales</legend>
+                    <div class="formulario__container___div">
+                        <label for="nombre1" class="formulario__label">Nombres:</label>
+                        <input type="text" id="nombre1" placeholder="Nombre" name="nombre" required
+                            class="formulario__input">
+                        <span class="formulario__alerta___Error">Campo no válido</span>
+                    </div>
 
-                <div class="formulario__container___div">
-                    <label for="apellidos" class="formulario__label">Apellidos:</label>
-                    <input type="text" id="apellidos" placeholder="Apellidos" name="apellidos" required
-                        class="formulario__input">
-                    <span class="formulario__alerta___Error">Campo no válido</span>
-                </div>
-                <div class="formulario__container___div">
-                    <label for="edad" class="formulario__label">Edad:</label>
-                    <input type="text" id="edad" placeholder="Edad" name="edad" required class="formulario__input">
-                    <span class="formulario__alerta___Error">Campo no válido</span>
-                </div>
-                <div class="formulario__container___div">
-                    <label for="sexo" class="formulario__label">Sexo:</label>
-                    <select name="sexo" id="sexo" class="formulario__input formulario__select___sexo" required>
-                        <option value="espera" disabled  selected>Selecciona...</option>
-                        <option value="hombre">Hombre</option>
-                        <option value="mujer">Mujer</option>
-                        <option value="mujer">Otro</option>
-                    </select>
-                    <span class="formulario__alerta___Error">Campo no válido</span>
-                </div>
-                <div class="formulario__container___div">
-                    <label for="telefono" class="formulario__label">Teléfono</label>
-                    <input type="tel" class="formulario__input" id="telefono" placeholder="Teléfono" name="telefono" required pattern="^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" title="Formato no válido">
-                    <span class="formulario__alerta___Error">Campo no válido</span>
-                </div>
-                <div class="formulario__container___div">
-                    <label for="correo" class="formulario__label">Correo:</label>
-                    <input type="email" id="correo" placeholder="Correo" name="correo" required
-                        class="formulario__input">
-                    <span class="formulario__alerta___Error">Campo no válido</span>
-                </div>
-                <div class="formulario__container___div">
-                    <button class="formulario__boton">Registrar</a>
-                </div>
-            </form>
-        </section>
-    </main>
-</body>
+                    <div class="formulario__container___div">
+                        <label for="apellidos" class="formulario__label">Apellidos:</label>
+                        <input type="text" id="apellidos" placeholder="Apellidos" name="apellidos" required
+                            class="formulario__input">
+                        <span class="formulario__alerta___Error">Campo no válido</span>
+                    </div>
+                    <div class="formulario__container___div">
+                        <label for="edad" class="formulario__label">Edad:</label>
+                        <input type="text" id="edad" placeholder="Edad" name="edad" required class="formulario__input">
+                        <span class="formulario__alerta___Error">Campo no válido</span>
+                    </div>
+                    <div class="formulario__container___div">
+                        <label for="sexo" class="formulario__label">Sexo:</label>
+                        <select name="sexo" id="sexo" class="formulario__input formulario__select___sexo" required>
+                            <option value="espera" disabled  selected>Selecciona...</option>
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                            <option value="mujer">Otro</option>
+                        </select>
+                        <span class="formulario__alerta___Error">Campo no válido</span>
+                    </div>
+                    <div class="formulario__container___div">
+                        <label for="telefono" class="formulario__label">Teléfono</label>
+                        <input type="tel" class="formulario__input" id="telefono" placeholder="Teléfono" name="telefono" required pattern="\d{10}" required minlength="10" maxlength="10" title="Formato no válido. Son 10 números">
+                        <span class="formulario__alerta___Error">Campo no válido</span>
+                    </div>
+                    <div class="formulario__container___div">
+                        <label for="correo" class="formulario__label">Correo:</label>
+                        <input type="email" id="correo" placeholder="Correo" name="correo" required
+                            class="formulario__input">
+                        <span class="formulario__alerta___Error">Campo no válido</span>
+                    </div>
+                    <div class="formulario__container___div">
+                        <button class="formulario__boton">Registrar</a>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </body>
 
 </html>
