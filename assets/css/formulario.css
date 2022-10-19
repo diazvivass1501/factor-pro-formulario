@@ -58,7 +58,7 @@
 }
 
 .formulario__contenido {
-    background: #415A77;
+    background: #034C8C;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@
 
 .formulario__input {
     border-radius: 2rem;
-    border: 1px solid #415A77;
+    border: 1px solid #034C8C;
     font-size: 1rem;
     padding: 0.5rem;
     width: 80%;
@@ -99,8 +99,8 @@
     width: 82%;
 }
 
-@media (max-width:800px){
-    .formulario{
+@media (max-width:800px) {
+    .formulario {
         padding: 1.3rem;
     }
 
@@ -108,7 +108,7 @@
         align-self: center;
         margin-left: 0rem;
     }
-    
+
     .formulario__container___div {
         margin-bottom: 0rem;
         width: auto;
