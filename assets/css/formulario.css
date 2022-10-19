@@ -90,7 +90,7 @@
     width: 82%;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .formulario{
         padding: 1.3rem;
     }
