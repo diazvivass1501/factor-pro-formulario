@@ -57,6 +57,7 @@ const mensajesError = {
     },
     edad: {
         valueMissing: "La edad no puede estar vacía",
+        patternMismatch: "Solo debes de ingresar números"
     },
     sexo: {
         valueMissing: "El sexo no puede estar vacío",
