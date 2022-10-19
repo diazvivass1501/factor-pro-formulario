@@ -29,7 +29,6 @@ font-family: 'Oswald', sans-serif;*/
 .header__list {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
     padding: 1.6rem;
 }
@@ -37,14 +36,35 @@ font-family: 'Oswald', sans-serif;*/
 .header__logo {
     background: url(../img/logo_pro.png);
     background-position: center;
-    background-size:cover;
-    padding:4rem;
+    background-size: cover;
+    padding: 4rem;
 }
 
 .header__nav {
     align-items: center;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: 0 2rem 0 2rem;
     width: 100%;
+}
+
+@media screen and (max-width:720px) {
+    .header__nav {
+        flex-direction: column;
+    }
+
+    .header__list {
+        align-items: center;
+        flex-direction: column;
+        padding: 0 0 1.2rem 0;
+    }
+
+    .header__item {
+        margin-right: 0;
+        margin-bottom: 0.9rem;
+    }
+
+    .header__item:last-child {
+        margin-bottom: 0rem;
+    }
 }

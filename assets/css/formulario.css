@@ -89,3 +89,23 @@
 .formulario__select___sexo {
     width: 82%;
 }
+
+@media screen and (max-width:600px){
+    .formulario{
+        padding: 1.3rem;
+    }
+
+    .formulario__alerta___Error {
+        align-self: center;
+        margin-left: 0rem;
+    }
+    
+    .formulario__container___div {
+        margin-bottom: 0rem;
+        width: auto;
+    }
+
+    .formulario__contenido {
+        width: 100%;
+    }
+}
